@@ -122,13 +122,16 @@ body{
   body{
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow-x:auto;
     
   }
   .reviewsection{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width:450px;
+    margin: 0 auto;
+    width: 100%;
   }
   .reviewtop{
     display: flex;
@@ -148,7 +151,7 @@ body{
   .testimonailbox{
     display: flex;
     flex-direction: column;
-    padding-left: 
+   
   }
   .box1{
     margin-bottom: 5px;
@@ -168,13 +171,13 @@ body{
      body{
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow-x: auto;
     
   }
   .reviewsection{
     display: flex;
     flex-direction: column;
-  
+    flex-wrap: wrap;
     max-width:450px;
   }
   .reviewtop{
@@ -195,7 +198,6 @@ body{
   .testimonailbox{
     display: flex;
     flex-direction: column;
-    padding-left: 
   }
   .box1{
     margin-bottom: 5px;
